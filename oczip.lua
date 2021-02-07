@@ -21,8 +21,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ]]
 
-local crc = dofile("./crc32.lua")
-local inflate = dofile("./inflate.lua")
+local crc = require("crc32")
+local inflate = require("inflate")
 
 local fname = ...
 
